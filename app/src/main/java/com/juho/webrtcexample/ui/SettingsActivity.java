@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-package com.juho.webrtcexample;
+package com.juho.webrtcexample.ui;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
@@ -16,6 +16,9 @@ import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.os.Bundle;
 import android.preference.ListPreference;
 import android.preference.Preference;
+
+import com.juho.webrtcexample.R;
+
 import org.webrtc.Camera2Enumerator;
 import org.webrtc.audio.JavaAudioDeviceModule;
 

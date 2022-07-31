@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-package com.juho.webrtcexample;
+package com.juho.webrtcexample.rtcclient;
 
 import android.os.Handler;
 import android.os.HandlerThread;
@@ -18,6 +18,8 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
+import com.juho.webrtcexample.RoomParametersFetcher;
+import com.juho.webrtcexample.client.WebSocketChannelClient;
 import com.juho.webrtcexample.util.AsyncHttpURLConnection;
 
 import org.json.JSONArray;

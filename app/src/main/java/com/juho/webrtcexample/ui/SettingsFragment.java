@@ -8,10 +8,12 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-package com.juho.webrtcexample;
+package com.juho.webrtcexample.ui;
 
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
+
+import com.juho.webrtcexample.R;
 
 /**
  * Settings fragment for AppRTC.

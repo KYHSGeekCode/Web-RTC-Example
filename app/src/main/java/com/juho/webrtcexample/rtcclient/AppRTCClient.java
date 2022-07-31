@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-package com.juho.webrtcexample;
+package com.juho.webrtcexample.rtcclient;
 
 import org.webrtc.IceCandidate;
 import org.webrtc.PeerConnection;

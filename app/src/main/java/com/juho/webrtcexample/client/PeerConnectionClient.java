@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-package com.juho.webrtcexample;
+package com.juho.webrtcexample.client;
 
 import android.content.Context;
 import android.os.Environment;
@@ -17,6 +17,10 @@ import android.os.ParcelFileDescriptor;
 import android.util.Log;
 
 import androidx.annotation.Nullable;
+
+import com.juho.webrtcexample.RecordedAudioToFileController;
+import com.juho.webrtcexample.RtcEventLog;
+import com.juho.webrtcexample.rtcclient.AppRTCClient;
 
 import java.io.File;
 import java.io.IOException;

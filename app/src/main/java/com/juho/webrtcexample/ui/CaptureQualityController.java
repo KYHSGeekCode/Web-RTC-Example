@@ -8,10 +8,14 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-package com.juho.webrtcexample;
+package com.juho.webrtcexample.ui;
 
 import android.widget.SeekBar;
 import android.widget.TextView;
+
+import com.juho.webrtcexample.R;
+import com.juho.webrtcexample.ui.CallFragment;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;

@@ -12,6 +12,7 @@ package com.juho.webrtcexample;
 
 import android.util.Log;
 
+import com.juho.webrtcexample.rtcclient.AppRTCClient;
 import com.juho.webrtcexample.util.AsyncHttpURLConnection;
 
 import java.io.IOException;

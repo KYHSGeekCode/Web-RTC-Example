@@ -8,12 +8,14 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-package com.juho.webrtcexample;
+package com.juho.webrtcexample.rtcclient;
 
 
 import android.util.Log;
 
 import androidx.annotation.Nullable;
+
+import com.juho.webrtcexample.client.TCPChannelClient;
 
 import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
@@ -36,7 +38,7 @@ public class DirectRTCClient implements AppRTCClient, TCPChannelClient.TCPChanne
   private static final int DEFAULT_PORT = 8888;
 
   // Regex pattern used for checking if room id looks like an IP.
-  static final Pattern IP_PATTERN = Pattern.compile("("
+  public static final Pattern IP_PATTERN = Pattern.compile("("
       // IPv4
       + "((\\d+\\.){3}\\d+)|"
       // IPv6

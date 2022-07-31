@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-package com.juho.webrtcexample;
+package com.juho.webrtcexample.ui;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -18,6 +18,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.TextView;
+
+import com.juho.webrtcexample.CpuMonitor;
+import com.juho.webrtcexample.R;
+import com.juho.webrtcexample.client.PeerConnectionClient;
 
 import org.webrtc.StatsReport;
 

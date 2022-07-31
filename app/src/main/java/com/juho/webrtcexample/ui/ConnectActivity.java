@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-package com.juho.webrtcexample;
+package com.juho.webrtcexample.ui;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -40,6 +40,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
+
+import com.juho.webrtcexample.R;
 
 import java.util.ArrayList;
 import java.util.Random;

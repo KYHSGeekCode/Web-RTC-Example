@@ -8,7 +8,7 @@
  *  be found in the AUTHORS file in the root of the source tree.
  */
 
-package com.juho.webrtcexample;
+package com.juho.webrtcexample.ui;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -35,7 +35,15 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
-import com.juho.webrtcexample.AppRTCClient.SignalingParameters;
+import com.juho.webrtcexample.AppRTCAudioManager;
+import com.juho.webrtcexample.CpuMonitor;
+import com.juho.webrtcexample.R;
+import com.juho.webrtcexample.UnhandledExceptionHandler;
+import com.juho.webrtcexample.client.PeerConnectionClient;
+import com.juho.webrtcexample.rtcclient.AppRTCClient;
+import com.juho.webrtcexample.rtcclient.AppRTCClient.SignalingParameters;
+import com.juho.webrtcexample.rtcclient.DirectRTCClient;
+import com.juho.webrtcexample.rtcclient.WebSocketRTCClient;
 
 import java.io.IOException;
 import java.lang.RuntimeException;
